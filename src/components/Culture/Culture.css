@@ -1,0 +1,50 @@
+:root {
+	--primary-dark: #450920;
+	--secondary-dark: #a53860;
+	--primary-light: #da627d;
+	--white: #faf9f9;
+	--black: #333333;
+	--secondary-light: #ffa5ab;
+	--header-font: "Lora", serif;
+	--body-font: "Roboto", sans-serif;
+	--background-pink: #dfa7b4;
+	--dark-background: #ba687f;
+}
+
+.card_title {
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin: 0px;
+	margin-left: 0.5em;
+}
+
+.culture {
+	list-style: none;
+	margin: 0px 44px 0px 44px;
+	background-color: var(--background-pink);
+	padding: 12px;
+}
+
+.cultureText {
+	color: var(--black);
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 12px !important;
+	text-align: center;
+}
+
+
+
+.culthead {
+	justify-content: center;
+	align-content: center;
+	display: flex;
+
+}
+
+@media screen and (max-width: 768px) {
+	.headCulture {
+		margin: 0.5em;
+	}
+}

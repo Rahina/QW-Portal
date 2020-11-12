@@ -1,0 +1,477 @@
+:root {
+	--primary-dark: #450920;
+	--secondary-dark: #a53860;
+	--primary-light: #da627d;
+	--white: #faf9f9;
+	--black: #333333;
+	--secondary-light: #ffa5ab;
+	--header-font: "Lora", serif;
+	--body-font: "Roboto", sans-serif;
+}
+
+/* *:focus {
+	outline: dashed 0.25rem var(--primary-dark) !important;
+} */
+html {
+	height: 100%;
+	color: var(--black) !important;
+}
+
+body {
+	background-color: var(--white);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	color: var(--black);
+}
+
+.smlogo {
+	width: 12em !important;
+	margin-top: -35px;
+	margin-bottom: -26px;
+}
+
+.logo {
+	width: 8.5em !important;
+	margin: -26px -8px;
+	padding: 0px 44px 0px 10px;
+}
+
+p {
+	font-family: var(--body-font) !important;
+	font-size: 16px !important;
+	text-align: center;
+	margin-bottom: 2em !important;
+}
+
+.a {
+	color: var(--white) !important;
+}
+
+.ui.grid > [class*="two column"].row > .column {
+	width: 34% !important;
+}
+
+#QW {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+h1 {
+	/* margin: 2em 0 2em 0; */
+	font-size: 54px !important;
+	text-align: center;
+	color: var(--black) !important;
+	font-family: var(--header-font) !important;
+}
+
+h2 {
+	font-size: 42px;
+	font-family: var(--header-font) !important;
+}
+
+h3 {
+	font-family: var(--body-font) !important;
+	font-size: 24px;
+}
+
+.whowords {
+	text-align: center;
+	top: 40%;
+	left: 21%;
+	position: absolute;
+	color: var(--secondary-dark) !important;
+}
+
+.why {
+	text-align: center;
+	align-items: center;
+}
+
+.motohead,
+.whohead {
+	color: var(--black) !important;
+}
+
+.whycard {
+	display: flex;
+	align-items: baseline;
+}
+
+a {
+	color: var(--white) !important;
+}
+
+.contact {
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	height: 95em;
+}
+
+.forms {
+	height: 106em;
+	width: 100%;
+}
+
+.ui.divided.grid:not([class*="vertically divided"]) > .row > .column {
+	box-shadow: none !important;
+}
+
+.teamimg {
+	height: 23rem;
+	width: 21rem;
+}
+
+.pop {
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.mission {
+	text-align: center;
+	font-family: var(--body-font) !important;
+	margin-bottom: 1em !important;
+	/* font-weight: 400; */
+}
+.appcover {
+	background-color: var(--white);
+	width: 100%;
+	height: 15em;
+	position: absolute;
+	top: 1409px;
+}
+
+/* .appcover {
+	background-color: var(--white);
+	width: 101%;
+	height: 11em;
+	position: absolute;
+	top: 1458px;
+} */
+
+.contactcover {
+	background-color: var(--white);
+	width: 101%;
+	height: 11em;
+	position: absolute;
+	top: 1450px;
+}
+
+.topPic {
+	margin-bottom: 2em !important;
+}
+
+.joinbtn {
+	background-color: var(--secondary-dark) !important;
+	height: 3em;
+	display: block !important;
+	margin: 1em auto !important;
+	color: var(--white);
+}
+.break {
+	margin-top: 5em;
+	height: 70vh;
+	text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+	.whyimages {
+		min-width: 14em !important;
+	}
+
+	.whyName {
+		/* font-size: 2.55rem !important; */
+		margin-top: 0.5rem !important;
+	}
+
+	.contactimg {
+		width: 93% !important;
+		top: 18em;
+	}
+
+	.whowords {
+		/* font-size: xxx-large; */
+		top: 52%;
+		left: 37%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo {
+		width: 7.5em !important;
+		position: relative;
+		left: 26px;
+		padding: 0 0 0 55px;
+		margin: -43px -8px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.moto {
+		/* font-size: medium; */
+		margin: 1em 0 1em 0;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+	.whywords {
+		/* font-size: 2em !important; */
+	}
+
+	.forms {
+		width: auto;
+		height: 109em;
+		position: relative;
+		left: 3em;
+	}
+
+	.appform {
+		width: auto;
+		height: 109em;
+		position: relative;
+		left: 3em;
+	}
+
+	.contactimg {
+		display: none !important;
+	}
+
+	#QW {
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+
+	p {
+		font-family: var(--body-font) !important;
+		/* font-size: 16px !important; */
+		text-align: center;
+		margin-bottom: 2em !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.forms {
+		width: 100%;
+		/* left: 14em; */
+		height: 100em;
+	}
+
+	.appform {
+		width: 100%;
+		height: 105em;
+		position: relative;
+		left: 3em;
+	}
+
+	.ui.grid > .row {
+		display: inline;
+	}
+	.appcover {
+		background-color: var(--white);
+		width: 101%;
+		height: 11em;
+		position: absolute;
+		top: 1283px;
+	}
+	/* 
+	.appcover {
+		top: 1283px;
+	} */
+}
+
+@media screen and (max-width: 320px) {
+	.appform {
+		width: auto;
+		height: 109em;
+		position: relative;
+		left: 1em;
+	}
+
+	/* .appcover {
+		background-color: var(--white);
+		width: 100%;
+		height: 11em;
+		position: absolute;
+		top: 1458px;
+	} */
+
+	.contact {
+		box-shadow: none !important;
+		position: relative;
+		left: -2em;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.contactcover {
+		background-color: var(--white);
+		width: 100%;
+		height: 8em;
+		position: absolute;
+		top: 1363px;
+		left: 1em;
+	}
+}
+/* @media screen and (max-width: 3px) {
+	.contactcover {
+		background-color: var(--white);
+		width: 100%;
+		height: 8em;
+		position: absolute;
+		top: 1363px;
+		left: 1em;
+	}
+} */
+@media screen and (min-width: 768px) {
+	.contactcover {
+		background-color: var(--white);
+		width: 100%;
+		height: 8em;
+		position: absolute;
+		top: 1385px;
+		left: 1em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.contactimg {
+		width: 93% !important;
+		top: 18em;
+	}
+}
+
+@media (min-width: 40rem) {
+	.cards_item {
+		width: 33% !important;
+		display: block;
+	}
+}
+
+@media (max-width: 1024px) {
+	.card_image > img {
+		height: 14vh !important;
+		max-width: 100%;
+	}
+
+	.member_image > img {
+		height: 21vh !important;
+	}
+	
+}
+.content-block {
+	width: 570px;
+	height: 326px;
+	border-radius: 7px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.25);
+	border: solid 1px #c4c4c4;
+	background-color: #ffffff; 
+	position: absolute;
+	left: 424px;
+	right: 446px;
+	top: 343px;
+	bottom: 365px;	
+	
+  }
+.Sign-In {
+	width: 1440px;
+	height: 1034px;
+	background-color: #faf9f9;
+  }
+  .Login-For-Members {
+	width: 164px;
+	height: 47px;
+	
+	left: 628px;
+	right:648px;
+	bottom: 633px;
+	top: 354px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #333333;
+  }
+.Username {
+	width: 86px;
+	height: 22px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #333333;
+	position: absolute;
+	left: 593px;
+	right: 761px;
+	top: 440px;
+	bottom: 572px;
+  }
+  .Password {
+	width: 82px;
+	height: 22px;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #333333;
+  }
+  .Rectangle-9 {
+	width: 225px;
+	height: 24px;
+	border: solid 1px #333333;
+	background-color: rgba(196, 196, 196, 0.18);
+  }
+  .Rectangle-10 {
+	width: 225px;
+	height: 24px;
+	border: solid 1px #333333;
+	background-color: rgba(196, 196, 196, 0.18);
+  }
+  .Login{
+	/* position: absolute; */
+	width: 46px;
+	height: 17px;
+	left: 848px;
+	top: 588px;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	
+	color: #333333;
+  }
+  .Rectangle-25 {
+	position: absolute;
+	width: 79px;
+	height: 25px;
+	border-radius: 6px;
+	border: solid 1px #333333;
+	background-color: rgba(196, 196, 196, 0.2);
+  }
+  .Forget-Username-Password {
+	/* position: absolute; */
+	width: 121px;
+	height: 18px;
+	font-family: Roboto;
+	font-size: 9px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #333333;
+  }
